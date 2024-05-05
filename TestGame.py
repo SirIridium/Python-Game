@@ -61,3 +61,15 @@ while running:
     dt = clock.tick(120) / 1000
 
 pygame.quit()
+
+35
+40 
+29
+11
+4
+4r+6p
+16r + 24p
+\
+4 pinks
+7 whites (printer paper?)
+2 reds
