@@ -48,7 +48,9 @@ while running:
     if keys[pygame.K_DOWN]:
         player_pos2.y+= 300 *dt
     if keys[pygame.K_RIGHT]:
-        player_pos2.x+= 300 *dt
+        if(not((player_pos2.x > player_pos.x-75) and (player_pos2.x < player_pos2.x+50) and (player_pos2.y > player_pos.y -75) and (player_pos2.y < player_pos.y +75))):
+            player_pos2.x+= 300 *dt
+    
 
 
 
